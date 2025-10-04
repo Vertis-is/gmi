@@ -111,9 +111,7 @@ Allt efni í handbókinni fylgir:
 ## 👥 Credits
 
 **Þróað fyrir:**
-- Omar (omar@omaromar.net)
-- Vertis (vertis.is)
-- Reykjavík City og other clients
+- Hrefnu Óskarsdóttir af  (omar@omaromar.net) /- Vertis (omar@vertis.is)
 
 **Content Sources:**
 - NOI Group (Neuro Orthopaedic Institute)
@@ -128,7 +126,7 @@ Allt efni í handbókinni fylgir:
 
 ## 📄 License
 
-Þetta er proprietary content þróað fyrir Vertis og íslenska heilbrigðisþjónustu.  
+Þetta er proprietary content þróað fyrir Heilsulykil.is og íslenska heilbrigðisþjónustu.  
 © 2025 Vertis. All rights reserved.
 
 ## 📧 Contact
