@@ -78,42 +78,35 @@ This is a comprehensive healthcare platform combining:
 
 ```
 C:\git\gmi\
-├── src/
+├── src/                         # Active development code
 │   ├── client/                  # React frontend
 │   │   ├── index.tsx           # Entry point
-│   │   ├── components/
-│   │   │   ├── GMI/            # GMI handbook components
-│   │   │   │   ├── Forsida.tsx
-│   │   │   │   ├── Skref1.tsx  # Laterality Recognition
-│   │   │   │   ├── Skref2.tsx  # Motor Imagery
-│   │   │   │   ├── Skref3.tsx  # Mirror Therapy
-│   │   │   │   └── Skref4.tsx  # Desensitization
-│   │   │   ├── Chat/           # Chat components
-│   │   │   │   ├── ChatWindow.tsx
-│   │   │   │   └── ChatWidget.tsx
-│   │   │   └── Heilsulykill/   # Migrated content
-│   │   │       ├── CourseList.tsx
-│   │   │       └── CourseDetail.tsx
-│   │   └── routes.tsx
+│   │   └── components/         # React components
 │   ├── server/                  # Cloudflare Workers
-│   │   ├── index.ts            # Main worker
-│   │   └── chat.ts             # Durable Objects chat
-│   └── shared.ts                # Shared types
+│   │   ├── index.ts            # Main worker + Durable Objects
+│   │   └── tsconfig.json
+│   └── shared.ts                # Shared TypeScript types
 ├── public/                      # Static assets
-│   ├── index.html
-│   ├── assets/
-│   └── heilsulykill/           # Scraped content
-├── docs/                        # Documentation
-│   ├── HEILSULYKILL-MIGRATION-PLAN.md
-│   ├── DEPLOYMENT.md
-│   └── claude-log.md
-├── index.html                   # Original GMI HTML
-├── skref1-4.html               # Original GMI steps
-├── package.json
-├── wrangler.json
-├── tsconfig.json
-└── TODO.md
+│   ├── index.html              # Chat app HTML
+│   ├── css/                    # Skeleton CSS framework
+│   ├── styles.css              # Custom styles
+│   └── favicon.ico
+├── old/                         # Archived legacy content
+│   ├── index.html              # Original GMI HTML pages
+│   ├── skref1-4.html          # Original GMI steps
+│   ├── TODO.md                # Historical planning docs
+│   ├── claude-log.md          # Development logs
+│   └── *.md                   # Other archived documentation
+├── CLAUDE.md                    # AI coding guidance (active)
+├── CLEANUP-ANALYSIS.md          # This cleanup process
+├── DEPLOYMENT.md                # Deployment instructions (active)
+├── README.md                    # This file
+├── package.json                 # NPM dependencies
+├── wrangler.json                # Cloudflare configuration
+└── tsconfig.json                # TypeScript config
 ```
+
+**Note**: Legacy HTML files and historical documentation have been moved to `old/` for reference. Active development focuses on the React/Cloudflare Workers implementation in `src/`.
 
 ---
 
@@ -165,12 +158,17 @@ wrangler domains add gmi.eyjar.app
 
 ## 📚 Documentation
 
-| Document | Description |
-|----------|-------------|
-| [TODO.md](./TODO.md) | Complete task list and progress tracking |
-| [HEILSULYKILL-MIGRATION-PLAN.md](./HEILSULYKILL-MIGRATION-PLAN.md) | Migration strategy and implementation |
-| [claude-log.md](./claude-log.md) | AI-assisted development activity log |
-| [DEPLOYMENT.md](./DEPLOYMENT.md) | Cloudflare deployment guide |
+| Document | Description | Location |
+|----------|-------------|----------|
+| [CLAUDE.md](./CLAUDE.md) | AI coding guidance and project overview | Active |
+| [DEPLOYMENT.md](./DEPLOYMENT.md) | Cloudflare deployment guide (Icelandic) | Active |
+| [CLEANUP-ANALYSIS.md](./CLEANUP-ANALYSIS.md) | Project cleanup and file organization | Active |
+| [TODO.md](./old/TODO.md) | Complete task list and progress tracking | Archived |
+| [HEILSULYKILL-MIGRATION-PLAN.md](./old/HEILSULYKILL-MIGRATION-PLAN.md) | Migration strategy | Archived |
+| [claude-log.md](./old/claude-log.md) | AI development activity log | Archived |
+
+**Active Documentation**: Files in root directory are maintained and current.  
+**Archived Documentation**: Historical files in `old/` directory for reference.
 
 ---
 

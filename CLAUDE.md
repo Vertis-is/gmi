@@ -11,20 +11,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Core Architecture
 
-### Dual System Design
+### Implementation Status
 
-This repository contains two parallel implementations:
+This repository is transitioning from legacy HTML to a modern React/Cloudflare Workers platform:
 
-1. **Legacy HTML Pages** (root directory) - Complete 5-page GMI handbook in standalone HTML
-   - `index.html` - GMI overview and scientific background
-   - `skref1-4.html` - Four treatment steps (Laterality, Motor Imagery, Mirror Therapy, Desensitization)
+1. **Legacy HTML Pages** (archived in old/ directory) - Complete 5-page GMI handbook
+   - `old/index.html` - GMI overview and scientific background
+   - `old/skref1-4.html` - Four treatment steps (Laterality, Motor Imagery, Mirror Therapy, Desensitization)
    - Uses Pico CSS framework
    - Self-contained, production-ready content (~107KB total)
+   - **Status**: ✅ Complete, archived for reference
 
 2. **React + Cloudflare Workers App** (src/ directory) - Modern real-time platform
    - Frontend: React 18 + TypeScript + React Router 7
    - Backend: Cloudflare Workers + Durable Objects
    - Real-time: PartyKit WebSocket integration
+   - **Status**: 🔄 In active development
 
 ### Request Flow
 
