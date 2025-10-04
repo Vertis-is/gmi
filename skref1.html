@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="is" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skref 1: Laterality Recognition - GMI Handbók</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+        }
+        nav {
+            background-color: #2c3e50;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.25rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #34495e;
+        }
+        nav a.active {
+            background-color: #3498db;
+        }
+        .highlight-box {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .success-box {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .protocol-box {
+            background-color: #f8f9fa;
+            border: 2px solid #dee2e6;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+        .image-placeholder {
+            background-color: #e9ecef;
+            border: 2px dashed #adb5bd;
+            padding: 3rem;
+            text-align: center;
+            color: #6c757d;
+            border-radius: 4px;
+            margin: 1.5rem 0;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+        }
+        .step-number {
+            background-color: #3498db;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">🏠 Heim</a>
+        <a href="skref1.html" class="active">Skref 1: Laterality</a>
+        <a href="skref2.html">Skref 2: Motor Imagery</a>
+        <a href="skref3.html">Skref 3: Mirror Therapy</a>
+        <a href="skref4.html">Skref 4: Desensitization</a>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1><span class="step-number">1</span> Laterality Recognition</h1>
+            <p>Hliðarskilningur - Endurheimta cortical representations</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section>
+            <h2>🧠 Vísindalegur bakgrunnur</h2>
+            <div class="highlight-box">
+                <h3>Cortical Reorganization í CRPS</h3>
+                <p>Rannsóknir Lorimer Moseley og félaga hafa sýnt að CRPS tengist verulegum breytingum í cortical representation af báðum motor og somatosensory kortlagningu. Þessar breytingar innihalda:</p>
+                <ul>
+                    <li><strong>Smear effect:</strong> Representation af affected limb verður óskýrari í cortex</li>
+                    <li><strong>Impaired laterality recognition:</strong> Heilinn á erfitt með að greina vinstri frá hægri</li>
+                    <li><strong>Hemispheric neglect-like patterns:</strong> Svipað og við stroke</li>
+                    <li><strong>Correlation við verki:</strong> Því verri laterality recognition, því meiri verkir</li>
+                </ul>
+                <p><strong>Lykilrannsókn:</strong> Moseley (2004) sýndi að bætt laterality recognition tengist beint pain reduction hjá CRPS sjúklingum.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎯 Markmiðið: 80% nákvæmni</h2>
+            <div class="success-box">
+                <h3>Hvers vegna 80%?</h3>
+                <p>NOI Group hefur sett 80% accuracy sem evidence-based threshold fyrir að halda áfram í næsta skref. Þetta er byggt á:</p>
+                <ul>
+                    <li><strong>Normative data:</strong> Heilir einstaklingar eru með 95-98% accuracy</li>
+                    <li><strong>CRPS patients:</strong> Byrja oft á 60-70% (ekki miklu betra en tilviljun)</li>
+                    <li><strong>Clinical significance:</strong> 80% sýnir næga cortical reorganization</li>
+                    <li><strong>Safety threshold:</strong> Tryggir að cortex sé tilbúinn fyrir motor imagery</li>
+                </ul>
+                <p><strong>Athugið:</strong> Ekki halda áfram í Skref 2 fyrr en 80% markmiði er náð!</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>📱 Recognise App - Setup og notkun</h2>
+            <div class="protocol-box">
+                <h3>Skref-fyrir-skref Setup leiðbeiningar</h3>
+                <ol>
+                    <li>
+                        <strong>Downloada Recognise App:</strong>
+                        <ul>
+                            <li>iOS: App Store - leita að "Recognise"</li>
+                            <li>Android: Google Play Store - "Recognise"</li>
+                            <li>Kostnaður: ~$5-7 fyrir hvern body part pack</li>
+                            <li>Þarf að kaupa relevant pack: Hand, Foot, Back, Shoulder, Knee</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Velja rétta body part:</strong>
+                        <ul>
+                            <li>CRPS í hendi → Hand pack</li>
+                            <li>CRPS í fæti → Foot pack</li>
+                            <li>Veldu affected side sem "problem side"</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Initial settings:</strong>
+                        <ul>
+                            <li><strong>Speed:</strong> Byrja á "Slow" (5 seconds per image)</li>
+                            <li><strong>Type:</strong> Vanilla images (plain hands/feet)</li>
+                            <li><strong>Quantity:</strong> 10-20 images per session</li>
+                            <li><strong>Feedback:</strong> Immediate feedback ON</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Baseline test:</strong>
+                        <ul>
+                            <li>Fyrsta daginn: Gera 3 sessions til að establish baseline</li>
+                            <li>Skrá niður accuracy percentage</li>
+                            <li>Skrá niður average reaction time</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="image-placeholder">
+                <strong>Placeholder fyrir mynd:</strong> Screenshot af Recognise App interface með íslenskum leiðbeiningum
+            </div>
+        </section>
+
+        <section>
+            <h2>🖼️ Myndartegundir - Progression</h2>
+            <div class="protocol-box">
+                <h3>Stigvaxandi erfiðleiki</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Stig</th>
+                            <th>Tegund</th>
+                            <th>Lýsing</th>
+                            <th>Hvenær að nota</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><strong>Vanilla</strong></td>
+                            <td>Plain hands/feet á neutral bakgrunni</td>
+                            <td>Vika 1-2, þar til 75% accuracy</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><strong>Context</strong></td>
+                            <td>Hendur í functional positions (holding objects, gestures)</td>
+                            <td>Þegar 75% náð á vanilla</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><strong>Abstract</strong></td>
+                            <td>Unusual angles, rotations, challenging perspectives</td>
+                            <td>Þegar 80% náð á context</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p><strong>Pro tip:</strong> Ekki flýta þér í gegnum stigin. Hver tegund þjálfar mismunandi aspects af cortical reorganization.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>📅 Æfingaáætlun</h2>
+            <div class="success-box">
+                <h3>2-3 vikna intensive protocol</h3>
+                <ul>
+                    <li><strong>Tíðni:</strong> 5 mínútur x 8 sinnum á dag</li>
+                    <li><strong>Timing:</strong> Spread jafnt yfir daginn (á 1-2 klst fresti)</li>
+                    <li><strong>Total dagleg tími:</strong> ~40 mínútur</li>
+                    <li><strong>Images per session:</strong> 10-20 images (fer eftir speed setting)</li>
+                </ul>
+                
+                <h4>Sýnishorn af daglegri áætlun:</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tími</th>
+                            <th>Session</th>
+                            <th>Athugasemdir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>08:00</td>
+                            <td>Session 1</td>
+                            <td>Með morgunmat</td>
+                        </tr>
+                        <tr>
+                            <td>10:00</td>
+                            <td>Session 2</td>
+                            <td>Coffee break</td>
+                        </tr>
+                        <tr>
+                            <td>12:00</td>
+                            <td>Session 3</td>
+                            <td>Fyrir hádegi</td>
+                        </tr>
+                        <tr>
+                            <td>14:00</td>
+                            <td>Session 4</td>
+                            <td>Eftir hádegi</td>
+                        </tr>
+                        <tr>
+                            <td>16:00</td>
+                            <td>Session 5</td>
+                            <td>Afternoon snack</td>
+                        </tr>
+                        <tr>
+                            <td>18:00</td>
+                            <td>Session 6</td>
+                            <td>Fyrir kvöldmat</td>
+                        </tr>
+                        <tr>
+                            <td>20:00</td>
+                            <td>Session 7</td>
+                            <td>Eftir kvöldmat</td>
+                        </tr>
+                        <tr>
+                            <td>22:00</td>
+                            <td>Session 8</td>
+                            <td>Fyrir svefn</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="warning-box">
+                <h3>⚠️ Mikilvægar athugasemdir</h3>
+                <ul>
+                    <li><strong>Ekki of lengi í einu:</strong> 5 mínútur er nóg. Lengri sessions leiða til fatigue og verri accuracy</li>
+                    <li><strong>Consistency er lykill:</strong> Betra að gera 8 stuttar sessions en 2 langar</li>
+                    <li><strong>Ekki stressa ef þú missir af session:</strong> Gerðu næstu þegar þú getur</li>
+                    <li><strong>Pain flare-ups:</strong> Haltu áfram með æfingar - þær draga úr pain long-term</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>📊 Progress Tracking</h2>
+            <div class="protocol-box">
+                <h3>Hvað á að mæla</h3>
+                <ul>
+                    <li><strong>Accuracy percentage:</strong> Main outcome - markmiðið er 80%</li>
+                    <li><strong>Reaction time:</strong> Ætti að minnka með tímanum (faster = better cortical processing)</li>
+                    <li><strong>Left vs Right accuracy:</strong> Eru báðar hliðar jafn góðar?</li>
+                    <li><strong>Pain levels (VAS 0-10):</strong> Mæla daily eða weekly</li>
+                </ul>
+                
+                <h4>Weekly tracking table</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vika</th>
+                            <th>Accuracy %</th>
+                            <th>Avg Reaction Time (s)</th>
+                            <th>VAS Pain</th>
+                            <th>Athugasemdir</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Baseline</td>
+                            <td>_____ %</td>
+                            <td>_____ s</td>
+                            <td>_____/10</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Vika 1</td>
+                            <td>_____ %</td>
+                            <td>_____ s</td>
+                            <td>_____/10</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Vika 2</td>
+                            <td>_____ %</td>
+                            <td>_____ s</td>
+                            <td>_____/10</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Vika 3</td>
+                            <td>_____ %</td>
+                            <td>_____ s</td>
+                            <td>_____/10</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <h2>🔧 Troubleshooting</h2>
+            <div class="warning-box">
+                <h3>Hvað ef nákvæmni batnar ekki?</h3>
+                
+                <h4>Ef eftir 2 vikur, accuracy er ennþá < 70%:</h4>
+                <ul>
+                    <li><strong>Athuga compliance:</strong> Er sjúklingur að gera 8 sessions á dag?</li>
+                    <li><strong>Athuga timing:</strong> Eru sessions of stuttar eða of langar?</li>
+                    <li><strong>Athuga speed:</strong> Er speed setting of fast? Hægja á í "Slow"</li>
+                    <li><strong>Einfalda:</strong> Halda sig við vanilla images lengur</li>
+                    <li><strong>Pain management:</strong> Er pain of mikill? Þarf medication adjustment?</li>
+                </ul>
+                
+                <h4>Ef eftir 3 vikur, accuracy er ennþá < 75%:</h4>
+                <ul>
+                    <li><strong>Endurskoða diagnosis:</strong> Er þetta rétt CRPS diagnosis?</li>
+                    <li><strong>Cognitive factors:</strong> Concentration issues, medication side effects?</li>
+                    <li><strong>Psychological barriers:</strong> Fear, anxiety, catastrophizing?</li>
+                    <li><strong>Consider referral:</strong> Pain specialist eða neurologist</li>
+                </ul>
+                
+                <h4>Ef accuracy batnar of hratt (> 90% eftir 1 viku):</h4>
+                <ul>
+                    <li><strong>Gott sign!</strong> En ekki flýta í næsta skref ennþá</li>
+                    <li><strong>Increase difficulty:</strong> Move to context eða abstract images</li>
+                    <li><strong>Increase speed:</strong> Prófa "Medium" eða "Fast" settings</li>
+                    <li><strong>Complete full 2-3 weeks:</strong> Þarf consolidation time</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>👨‍⚕️ Patient Education - Útskýringar fyrir sjúklinga</h2>
+            <div class="highlight-box">
+                <h3>Einfaldar skýringar á íslensku</h3>
+                <p><strong>"Hvers vegna er ég að horfa á myndir af höndum á síma?"</strong></p>
+                <p>Þegar þú ert með langvinna verki í höndum þínum getur heilinn þinn orðið "ruglaður" um hvar höndin þín er og hvernig hún hreyfist. Þessi æfing hjálpar heilanum að "muna" aftur hvernig höndin þín á að virka. Það er eins og að enduræfa hluta af heilanum sem stjórnar hendinni.</p>
+                
+                <p><strong>"Hve lengi þarf ég að gera þetta?"</strong></p>
+                <p>Flestir þurfa að æfa í 2-3 vikur áður en heilinn þinn verður nógu góður til að halda áfram í næsta skref. Þetta er eins og að æfa vöðva - það tekur tíma!</p>
+                
+                <p><strong>"Af hverju 8 sinnum á dag?"</strong></p>
+                <p>Heilinn þinn lærir best með stuttum, endurteknum æfingum. Það er betra að gera þetta oft í stuttan tíma en að gera það í langan tíma í einu. Hugsaðu um það eins og að taka lyfseðil - þú tekur það oft á daginn til að halda stöðugum styrkleika.</p>
+                
+                <p><strong>"Mun þetta hjálpa verkjunum mínum?"</strong></p>
+                <p>Já! Rannsóknir sýna að þegar heilinn þinn verður betri í að þekkja hliðarnar, þá minnka verkir líka. Þetta er fyrsta skrefið í að "endurræsa" tengingu milli heilans og handarinnar þinnar.</p>
+                
+                <p><strong>"Hvað ef ég finn fyrir meiri verkjum meðan ég æfi?"</strong></p>
+                <p>Það er eðlilegt að finna smá aukningu í byrjun. Heilinn þinn er að vinna hart! En ef verkir verða of miklir, skaltu taka pásu og hafa samband við þjálfara þinn.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>✅ Checklist - Tilbúinn fyrir næsta skref?</h2>
+            <div class="success-box">
+                <h3>Áður en þú heldur áfram í Skref 2, athugaðu:</h3>
+                <ul>
+                    <li>☐ Ég hef æft í 2-3 vikur</li>
+                    <li>☐ Accuracy mitt er ≥ 80% consistently (síðustu 5 dagana)</li>
+                    <li>☐ Reaction time mitt hefur batnað</li>
+                    <li>☐ Ég get gert þetta á context images, ekki bara vanilla</li>
+                    <li>☐ Verkir mínir eru stöðugir eða betri</li>
+                    <li>☐ Ég skil hvers vegna ég er að gera þetta</li>
+                    <li>☐ Ég er tilbúinn að byrja motor imagery (mental practice)</li>
+                </ul>
+                
+                <p style="text-align: center; margin-top: 2rem;">
+                    <a href="skref2.html" role="button">Halda áfram í Skref 2: Motor Imagery →</a>
+                </p>
+            </div>
+        </section>
+
+        <footer style="margin-top: 3rem; padding: 2rem 0; border-top: 1px solid #dee2e6; text-align: center; color: #6c757d;">
+            <p><a href="index.html">← Til baka á heim</a> | <a href="skref2.html">Næsta skref: Motor Imagery →</a></p>
+            <p style="font-size: 0.9em; margin-top: 1rem;">
+                GMI Handbók | Þróað fyrir Vertis og íslenska iðjuþjálfa
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
