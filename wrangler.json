@@ -24,6 +24,12 @@
       }
     ]
   },
+  "routes": [
+    {
+      "pattern": "gmi.eyjar.app",
+      "custom_domain": true
+    }
+  ],
   "observability": {
     "enabled": true
   },
